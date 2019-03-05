@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="nzpatient" />
+  <url value="http://hl7.org.nz/fhir/StructureDefinition/nzpatient" />
+  <name value="nzpatient" />
+  <status value="draft" />
+  <fhirVersion value="3.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Patient" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Patient" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Patient.identifier">
+      <path value="Patient.identifier" />
+      <slicing>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Patient.identifier:NHI">
+      <path value="Patient.identifier" />
+      <sliceName value="NHI" />
+      <max value="1" />
+    </element>
+    <element id="Patient.identifier:NHI.system">
+      <path value="Patient.identifier.system" />
+      <type>
+        <code value="uri" />
+        <profile value="https://standards.digital.health.nz/id/nhi" />
+      </type>
+    </element>
+    <element id="Patient.animal">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
+        <valueString value="Animal" />
+      </extension>
+      <path value="Patient.animal" />
+      <max value="0" />
+    </element>
+    <element id="Patient.link">
+      <path value="Patient.link" />
+      <max value="0" />
+    </element>
+  </differential>
+</StructureDefinition>
