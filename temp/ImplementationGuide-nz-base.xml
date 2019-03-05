@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="nz-base"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Implementation Guide Template</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org.au/fhir/ImplementationGuide/nz-base</pre></div>
+  </text>
+  <url value="http://hl7.org.au/fhir/ImplementationGuide/nz-base"/>
+  <version value="1.0.2"/>
+  <name value="Implementation Guide Template"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2010-02-15T00:00:00+13:00"/>
+  <publisher value="HL7 Australia"/>
+  <contact>
+    <name value="HL7 Australia Patient Administration Working Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://confluence.hl7australia.com/display/PA"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <fhirVersion value="3.0.1"/>
+  <package id="p1">
+    <name value="base"/>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-au-organisation.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/au-organisation"/>
+      </sourceReference>
+    </resource>
+  </package>
+  <page>
+    <source value="index.html"/>
+    <title value="New Zealand Base Profiles Implementation Guide"/>
+    <kind value="page"/>
+  </page>
+</ImplementationGuide>

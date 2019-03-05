@@ -1,0 +1,43 @@
+{
+    "sct-edition": "http://snomed.info/sct/32506021000036107",
+    "version": "3.0.1",
+    "source": "ig.xml",
+    "dependencyList": [],
+    "spreadsheets": [],
+    "special-urls": [],
+    "extraTemplates": ["mappings"],
+    "defaults": {
+      
+        "Any": {
+            "template-base": "base.html",
+            "template-format": "format.html"
+        },
+        "StructureDefinition": {
+            "template-base": "sd.html",
+            "template-defns": "sd-definitions.html",
+            "template-mappings": "sd-mappings.html"
+        }
+   },
+    "tool": "jekyll",
+    "license": "CC0-1.0",
+    "canonicalBase": "http://hl7.org.nz/fhir",
+    "paths": {
+        "temp": "temp",
+        "resources": [
+            "resources",
+            "examples"
+        ],
+        "pages": "pages",
+        "txCache": "txCache",
+        "output": "output",
+        "qa": "qa",
+        "specification": "http://hl7.org/fhir/STU3"
+    },
+    "npm-name": "hl7.fhir.nz.base",
+    "resources": {
+        "StructureDefinition/indigenous-status": {
+            "base": "StructureDefinition-indigenous-status.html",
+            "defns": "StructureDefinition-indigenous-status-definitions.html"
+        }
+    }
+}
