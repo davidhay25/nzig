@@ -12,9 +12,9 @@
   &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.status">status</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#code">value</a>=&quot;draft&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.experimental">experimental</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.date">date</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#dateTime">value</a>=&quot;2010-02-15T00:00:00+13:00&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.publisher">publisher</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;HL7 Australia&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.publisher">publisher</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;HL7 New Zealand&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.contact">contact</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactDetail#ContactDetail.name">name</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;HL7 Australia Patient Administration Working Group&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactDetail#ContactDetail.name">name</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;HL7 New Zealand Patient Administration Working Group&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#code">value</a>=&quot;url&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;http://confluence.hl7australia.com/display/PA&quot;/&gt;
@@ -25,12 +25,20 @@
   &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package">package</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">id</a>=&quot;p1&quot;&gt;
     &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.name">name</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;base&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">value</a>=&quot;StructureDefinition-nzpatient.html&quot;/&gt;
+      &lt;/extension&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
         &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;StructureDefinition/nzpatient&quot;/&gt;
       &lt;/sourceReference&gt;
     &lt;/resource&gt;
     &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">value</a>=&quot;StructureDefinition-nzpractitioner.html&quot;/&gt;
+      &lt;/extension&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
         &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;StructureDefinition/nzpractitioner&quot;/&gt;

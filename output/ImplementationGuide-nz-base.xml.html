@@ -32,13 +32,13 @@
 
  <div id="segment-header" class="segment">    <!-- segment-header -->
   <div class="container">    <!-- container -->
-   <a no-external="true" id="logo" href="http://hl7.org/fhir"><a name="e840d96a-4333-4910-9ebe-b3512c585674">​</a><img src="assets/images/fhir-logo-www.png" alt="logo fhir"/> </a>
+   <a no-external="true" id="logo" href="http://hl7.org/fhir"><a name="c42d24a3-9478-49a9-985f-d8d844d45b4a">​</a><img src="assets/images/fhir-logo-www.png" alt="logo fhir"/> </a>
    <div id="hl7-status">
     <b>New Zealand Base Profiles Implementation Guide</b>
    </div>
 
    <div id="hl7-nav">
-     <a no-external="true" id="hl7-logo" href="http://www.hl7.org"><a name="101bed49-f30b-4a47-8206-8e43ff04b022">​</a>
+     <a no-external="true" id="hl7-logo" href="http://www.hl7.org"><a name="3b2d706b-c464-4296-9bbe-26251b6de9b2">​</a>
      <img src="assets/images/hl7-logo.png" alt="visit the hl7 website" width="42" height="50"/>
     </a>
    </div>
@@ -133,9 +133,9 @@ Raw <a download="null" href="ImplementationGuide-nz-base.xml">xml</a>
   &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.status">status</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#code">value</a>="draft"/&gt;
   &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.experimental">experimental</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#boolean">value</a>="true"/&gt;
   &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.date">date</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#dateTime">value</a>="2010-02-15T00:00:00+13:00"/&gt;
-  &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.publisher">publisher</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>="HL7 Australia"/&gt;
+  &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.publisher">publisher</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>="HL7 New Zealand"/&gt;
   &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.contact">contact</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactDetail#ContactDetail.name">name</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>="HL7 Australia Patient Administration Working Group"/&gt;
+    &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactDetail#ContactDetail.name">name</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>="HL7 New Zealand Patient Administration Working Group"/&gt;
     &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#code">value</a>="url"/&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>="http://confluence.hl7australia.com/display/PA"/&gt;
@@ -146,12 +146,20 @@ Raw <a download="null" href="ImplementationGuide-nz-base.xml">xml</a>
   &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package">package</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">id</a>="p1"&gt;
     &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.name">name</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>="base"/&gt;
     &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">url</a>="http://hl7.org/fhir/StructureDefinition/implementationguide-page"&gt;
+        &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">value</a>="StructureDefinition-nzpatient.html"/&gt;
+      &lt;/extension&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#boolean">value</a>="false"/&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
         &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>="StructureDefinition/nzpatient"/&gt;
       &lt;/sourceReference&gt;
     &lt;/resource&gt;
     &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">url</a>="http://hl7.org/fhir/StructureDefinition/implementationguide-page"&gt;
+        &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">value</a>="StructureDefinition-nzpractitioner.html"/&gt;
+      &lt;/extension&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#boolean">value</a>="false"/&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
         &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>="StructureDefinition/nzpractitioner"/&gt;
@@ -190,7 +198,7 @@ Raw <a download="null" href="ImplementationGuide-nz-base.xml">xml</a>
   <div class="container">    <!-- container -->
    <div class="inner-wrapper">
     <p>
-        NZ Base &copy; FHIR STU3 (IG Publisher v3.0.1-11917) generated on Tue, Mar 5, 2019 17:26+1300. |
+        NZ Base &copy; FHIR STU3 (IG Publisher v3.0.1-11917) generated on Tue, Mar 5, 2019 17:35+1300. |
                <!-- <a style="color: #81BEF7" rel="license" <!-- <href="../license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> -->
                 <a rel="license" style="color: #81BEF7" href="http://hl7.org/fhir/STU3/license.html"><img src="cc0.png" alt="CC0" style="border-style: none;"/></a>
         

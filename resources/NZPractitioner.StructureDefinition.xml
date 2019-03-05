@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="NZPractitioner" />
-  <url value="http://hl7.org.nz/fhir/StructureDefinition/NZPractitioner" />
+  <id value="nzpractitioner" />
+  <url value="http://hl7.org.nz/fhir/StructureDefinition/nzpractitioner" />
   <name value="NZPractitioner" />
   <status value="draft" />
   <fhirVersion value="3.0.1" />

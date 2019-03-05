@@ -3,7 +3,7 @@
   "canonical": "http://hl7.org.nz/fhir",
   "igId": "nz-base",
   "igName": "Implementation Guide Template",
-  "errorCount": 5,
+  "errorCount": 3,
   "version": "3.0.1",
   "revision": "11917",
   "versionFull": "3.0.1-11917",
@@ -12,7 +12,7 @@
   "toolingVersionFull": "4.1.0 (3)",
   "totalFiles": 3,
   "processedFiles": 49,
-  "genDate": "Tue, Mar 5, 2019 17:26+1300",
+  "genDate": "Tue, Mar 5, 2019 17:35+1300",
   "ig": {
     "id": "nz-base",
     "name": "Implementation Guide Template",
@@ -20,10 +20,10 @@
     "version": "1.0.2",
     "status": "draft",
     "experimental": true,
-    "publisher": "HL7 Australia",
+    "publisher": "HL7 New Zealand",
     "contact": [
       {
-        "name": "HL7 Australia Patient Administration Working Group",
+        "name": "HL7 New Zealand Patient Administration Working Group",
         "telecom": [
           "http://confluence.hl7australia.com/display/PA"
         ]

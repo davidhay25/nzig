@@ -19,9 +19,9 @@
   "status" : "draft",
   "experimental" : true,
   "date" : "2010-02-15T00:00:00+13:00",
-  "publisher" : "HL7 Australia",
+  "publisher" : "HL7 New Zealand",
   "contact" : [{
-    "name" : "HL7 Australia Patient Administration Working Group",
+    "name" : "HL7 New Zealand Patient Administration Working Group",
     "telecom" : [{
       "system" : "url",
       "value" : "http://confluence.hl7australia.com/display/PA",

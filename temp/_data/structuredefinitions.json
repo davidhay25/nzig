@@ -1,28 +1,28 @@
 ﻿{
-  "NZPatient": {
+  "nzpatient": {
     "index": 0,
-    "url": "http://hl7.org.nz/fhir/StructureDefinition/NZPatient",
-    "name": "NZPatient",
-    "path": "StructureDefinition/NZPatient.html",
+    "url": "http://hl7.org.nz/fhir/StructureDefinition/nzpatient",
+    "name": "nzpatient",
+    "path": "StructureDefinition/nzpatient.html",
     "kind": "resource",
     "type": "Patient",
     "base": "http://hl7.org/fhir/StructureDefinition/Patient",
     "basename": "Patient",
     "basepath": "http://hl7.org/fhir/STU3/patient.html",
     "status": "draft",
-    "date": "Tue Mar 05 17:26:46 NZDT 2019"
+    "date": "Tue Mar 05 17:35:06 NZDT 2019"
   },
-  "NZPractitioner": {
+  "nzpractitioner": {
     "index": 1,
-    "url": "http://hl7.org.nz/fhir/StructureDefinition/NZPractitioner",
+    "url": "http://hl7.org.nz/fhir/StructureDefinition/nzpractitioner",
     "name": "NZPractitioner",
-    "path": "StructureDefinition/NZPractitioner.html",
+    "path": "StructureDefinition/nzpractitioner.html",
     "kind": "resource",
     "type": "Practitioner",
     "base": "http://hl7.org/fhir/StructureDefinition/Practitioner",
     "basename": "Practitioner",
     "basepath": "http://hl7.org/fhir/STU3/practitioner.html",
     "status": "draft",
-    "date": "Tue Mar 05 17:26:46 NZDT 2019"
+    "date": "Tue Mar 05 17:35:06 NZDT 2019"
   }
 }

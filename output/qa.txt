@@ -1,71 +1,67 @@
 ﻿Implementation Guide Template : Validation Results
 =========================================
 
-err = 10, warn = 4, info = 0
-Generated Tue Mar 05 17:26:53 NZDT 2019. FHIR version 4.1.0 for 3.0.1
+err = 6, warn = 4, info = 0
+Generated Tue Mar 05 17:35:12 NZDT 2019. FHIR version 4.1.0 for 3.0.1
 
- Build Errors : 49 / 0
- /Users/davidhay/nzIG/resources/ig : 3 / 0
+ Build Errors : 47 / 0
+ /Users/davidhay/nzIG/resources/ig : 1 / 0
  /Users/davidhay/nzIG/resources/nzpatient.structuredefinition : 2 / 1
  /Users/davidhay/nzIG/resources/nzpractitioner.structuredefinition : 0 / 1
 </table>
 == n/a ==
 ERROR: ??: The reference https://standards.digital.health.nz/id/nhi could not be resolved
-ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NZPractitioner.html#/html/body/div/div/a/img at Line 36, column 64: The image source 'assets/images/fhir-logo-www.png' cannot be resolved
-ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NZPractitioner.html#/html/body/div/div/div/a/img at Line 43, column 7: The image source 'assets/images/hl7-logo.png' cannot be resolved
-ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NZPractitioner.ttl.html#/html/body/div/div/a/img at Line 36, column 64: The image source 'assets/images/fhir-logo-www.png' cannot be resolved
-ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NZPractitioner.ttl.html#/html/body/div/div/div/a/img at Line 43, column 7: The image source 'assets/images/hl7-logo.png' cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-nzpractitioner-definitions.html#/html/body/div/div/a/img at Line 36, column 64: The image source 'assets/images/fhir-logo-www.png' cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-nzpractitioner-definitions.html#/html/body/div/div/div/a/img at Line 43, column 7: The image source 'assets/images/hl7-logo.png' cannot be resolved
 ERROR: /Users/davidhay/nzIG/output/ImplementationGuide-nz-base.html#/html/body/div/div/a/img at Line 36, column 64: The image source 'assets/images/fhir-logo-www.png' cannot be resolved
 ERROR: /Users/davidhay/nzIG/output/ImplementationGuide-nz-base.html#/html/body/div/div/div/a/img at Line 43, column 7: The image source 'assets/images/hl7-logo.png' cannot be resolved
-ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NZPractitioner-mappings.html#/html/body/div/div/a/img at Line 36, column 64: The image source 'assets/images/fhir-logo-www.png' cannot be resolved
-ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NZPractitioner-mappings.html#/html/body/div/div/div/a/img at Line 43, column 7: The image source 'assets/images/hl7-logo.png' cannot be resolved
 ERROR: /Users/davidhay/nzIG/output/terminology.html#/html/body/div/div/a/img at Line 36, column 64: The image source 'assets/images/fhir-logo-www.png' cannot be resolved
 ERROR: /Users/davidhay/nzIG/output/terminology.html#/html/body/div/div/div/a/img at Line 43, column 7: The image source 'assets/images/hl7-logo.png' cannot be resolved
-ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NZPractitioner.json.html#/html/body/div/div/a/img at Line 36, column 64: The image source 'assets/images/fhir-logo-www.png' cannot be resolved
-ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NZPractitioner.json.html#/html/body/div/div/div/a/img at Line 43, column 7: The image source 'assets/images/hl7-logo.png' cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-nzpractitioner.ttl.html#/html/body/div/div/a/img at Line 36, column 64: The image source 'assets/images/fhir-logo-www.png' cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-nzpractitioner.ttl.html#/html/body/div/div/div/a/img at Line 43, column 7: The image source 'assets/images/hl7-logo.png' cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-nzpatient.ttl.html#/html/body/div/div/a/img at Line 36, column 64: The image source 'assets/images/fhir-logo-www.png' cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-nzpatient.ttl.html#/html/body/div/div/div/a/img at Line 43, column 7: The image source 'assets/images/hl7-logo.png' cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-nzpatient-definitions.html#/html/body/div/div/a/img at Line 36, column 64: The image source 'assets/images/fhir-logo-www.png' cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-nzpatient-definitions.html#/html/body/div/div/div/a/img at Line 43, column 7: The image source 'assets/images/hl7-logo.png' cannot be resolved
 ERROR: /Users/davidhay/nzIG/output/ImplementationGuide-nz-base.json.html#/html/body/div/div/a/img at Line 36, column 64: The image source 'assets/images/fhir-logo-www.png' cannot be resolved
 ERROR: /Users/davidhay/nzIG/output/ImplementationGuide-nz-base.json.html#/html/body/div/div/div/a/img at Line 43, column 7: The image source 'assets/images/hl7-logo.png' cannot be resolved
-ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NZPractitioner-definitions.html#/html/body/div/div/a/img at Line 36, column 64: The image source 'assets/images/fhir-logo-www.png' cannot be resolved
-ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NZPractitioner-definitions.html#/html/body/div/div/div/a/img at Line 43, column 7: The image source 'assets/images/hl7-logo.png' cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-nzpractitioner.xml.html#/html/body/div/div/a/img at Line 36, column 64: The image source 'assets/images/fhir-logo-www.png' cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-nzpractitioner.xml.html#/html/body/div/div/div/a/img at Line 43, column 7: The image source 'assets/images/hl7-logo.png' cannot be resolved
 ERROR: /Users/davidhay/nzIG/output/ImplementationGuide-nz-base.ttl.html#/html/body/div/div/a/img at Line 36, column 64: The image source 'assets/images/fhir-logo-www.png' cannot be resolved
 ERROR: /Users/davidhay/nzIG/output/ImplementationGuide-nz-base.ttl.html#/html/body/div/div/div/a/img at Line 43, column 7: The image source 'assets/images/hl7-logo.png' cannot be resolved
-ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NZPractitioner.xml.html#/html/body/div/div/a/img at Line 36, column 64: The image source 'assets/images/fhir-logo-www.png' cannot be resolved
-ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NZPractitioner.xml.html#/html/body/div/div/div/a/img at Line 43, column 7: The image source 'assets/images/hl7-logo.png' cannot be resolved
-ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NZPatient.html#/html/body/div/div/a/img at Line 36, column 64: The image source 'assets/images/fhir-logo-www.png' cannot be resolved
-ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NZPatient.html#/html/body/div/div/div/a/img at Line 43, column 7: The image source 'assets/images/hl7-logo.png' cannot be resolved
-ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NZPatient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 245, column 1489: The link 'unknown.html' for "??" cannot be resolved
-ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NZPatient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 411, column 1489: The link 'unknown.html' for "??" cannot be resolved
-ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NZPatient-mappings.html#/html/body/div/div/a/img at Line 36, column 64: The image source 'assets/images/fhir-logo-www.png' cannot be resolved
-ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NZPatient-mappings.html#/html/body/div/div/div/a/img at Line 43, column 7: The image source 'assets/images/hl7-logo.png' cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-nzpatient.html#/html/body/div/div/a/img at Line 36, column 64: The image source 'assets/images/fhir-logo-www.png' cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-nzpatient.html#/html/body/div/div/div/a/img at Line 43, column 7: The image source 'assets/images/hl7-logo.png' cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-nzpatient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 245, column 1489: The link 'unknown.html' for "??" cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-nzpatient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 411, column 1489: The link 'unknown.html' for "??" cannot be resolved
 ERROR: /Users/davidhay/nzIG/output/extensions.html#/html/body/div/div/a/img at Line 36, column 64: The image source 'assets/images/fhir-logo-www.png' cannot be resolved
 ERROR: /Users/davidhay/nzIG/output/extensions.html#/html/body/div/div/div/a/img at Line 43, column 7: The image source 'assets/images/hl7-logo.png' cannot be resolved
 ERROR: /Users/davidhay/nzIG/output/ImplementationGuide-nz-base.xml.html#/html/body/div/div/a/img at Line 36, column 64: The image source 'assets/images/fhir-logo-www.png' cannot be resolved
 ERROR: /Users/davidhay/nzIG/output/ImplementationGuide-nz-base.xml.html#/html/body/div/div/div/a/img at Line 43, column 7: The image source 'assets/images/hl7-logo.png' cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-nzpatient.json.html#/html/body/div/div/a/img at Line 36, column 64: The image source 'assets/images/fhir-logo-www.png' cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-nzpatient.json.html#/html/body/div/div/div/a/img at Line 43, column 7: The image source 'assets/images/hl7-logo.png' cannot be resolved
 ERROR: /Users/davidhay/nzIG/output/downloads.html#/html/body/div/div/a/img at Line 36, column 64: The image source 'assets/images/fhir-logo-www.png' cannot be resolved
 ERROR: /Users/davidhay/nzIG/output/downloads.html#/html/body/div/div/div/a/img at Line 43, column 7: The image source 'assets/images/hl7-logo.png' cannot be resolved
-ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NZPatient.json.html#/html/body/div/div/a/img at Line 36, column 64: The image source 'assets/images/fhir-logo-www.png' cannot be resolved
-ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NZPatient.json.html#/html/body/div/div/div/a/img at Line 43, column 7: The image source 'assets/images/hl7-logo.png' cannot be resolved
-ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NZPatient-definitions.html#/html/body/div/div/a/img at Line 36, column 64: The image source 'assets/images/fhir-logo-www.png' cannot be resolved
-ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NZPatient-definitions.html#/html/body/div/div/div/a/img at Line 43, column 7: The image source 'assets/images/hl7-logo.png' cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-nzpractitioner-mappings.html#/html/body/div/div/a/img at Line 36, column 64: The image source 'assets/images/fhir-logo-www.png' cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-nzpractitioner-mappings.html#/html/body/div/div/div/a/img at Line 43, column 7: The image source 'assets/images/hl7-logo.png' cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-nzpatient-mappings.html#/html/body/div/div/a/img at Line 36, column 64: The image source 'assets/images/fhir-logo-www.png' cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-nzpatient-mappings.html#/html/body/div/div/div/a/img at Line 43, column 7: The image source 'assets/images/hl7-logo.png' cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-nzpractitioner.html#/html/body/div/div/a/img at Line 36, column 64: The image source 'assets/images/fhir-logo-www.png' cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-nzpractitioner.html#/html/body/div/div/div/a/img at Line 43, column 7: The image source 'assets/images/hl7-logo.png' cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-nzpatient.xml.html#/html/body/div/div/a/img at Line 36, column 64: The image source 'assets/images/fhir-logo-www.png' cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-nzpatient.xml.html#/html/body/div/div/div/a/img at Line 43, column 7: The image source 'assets/images/hl7-logo.png' cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-nzpractitioner.json.html#/html/body/div/div/a/img at Line 36, column 64: The image source 'assets/images/fhir-logo-www.png' cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-nzpractitioner.json.html#/html/body/div/div/div/a/img at Line 43, column 7: The image source 'assets/images/hl7-logo.png' cannot be resolved
 ERROR: /Users/davidhay/nzIG/output/index.html#/html/body/div/div/a/img at Line 36, column 64: The image source 'assets/images/fhir-logo-www.png' cannot be resolved
 ERROR: /Users/davidhay/nzIG/output/index.html#/html/body/div/div/div/a/img at Line 43, column 7: The image source 'assets/images/hl7-logo.png' cannot be resolved
 ERROR: /Users/davidhay/nzIG/output/guidance.html#/html/body/div/div/a/img at Line 36, column 64: The image source 'assets/images/fhir-logo-www.png' cannot be resolved
 ERROR: /Users/davidhay/nzIG/output/guidance.html#/html/body/div/div/div/a/img at Line 43, column 7: The image source 'assets/images/hl7-logo.png' cannot be resolved
-ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NZPatient.ttl.html#/html/body/div/div/a/img at Line 36, column 64: The image source 'assets/images/fhir-logo-www.png' cannot be resolved
-ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NZPatient.ttl.html#/html/body/div/div/div/a/img at Line 43, column 7: The image source 'assets/images/hl7-logo.png' cannot be resolved
-ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NZPatient.xml.html#/html/body/div/div/a/img at Line 36, column 64: The image source 'assets/images/fhir-logo-www.png' cannot be resolved
-ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NZPatient.xml.html#/html/body/div/div/div/a/img at Line 43, column 7: The image source 'assets/images/hl7-logo.png' cannot be resolved
 ERROR: /Users/davidhay/nzIG/output/profiles.html#/html/body/div/div/a/img at Line 36, column 64: The image source 'assets/images/fhir-logo-www.png' cannot be resolved
 ERROR: /Users/davidhay/nzIG/output/profiles.html#/html/body/div/div/div/a/img at Line 43, column 7: The image source 'assets/images/hl7-logo.png' cannot be resolved
-ERROR: /Users/davidhay/nzIG/output/profiles.html#/html/body/div/div/div/div/div/ul/li/a at Line 109, column 8: The link 'StructureDefinition-nzpatient.html' for "NZ Patient" cannot be resolved
-ERROR: /Users/davidhay/nzIG/output/profiles.html#/html/body/div/div/div/div/div/ul/li/a at Line 110, column 8: The link 'StructureDefinition-nzpractitioner.html' for "NZ Practitioner" cannot be resolved
 == /Users/davidhay/nzIG/resources/ig.xml ==
-ERROR: ImplementationGuide/nz-base: ImplementationGuide.package.resource[1].sourceReference: Unable to resolve resource 'StructureDefinition/nzpatient'
-ERROR: ImplementationGuide/nz-base: ImplementationGuide.package.resource[2].sourceReference: Unable to resolve resource 'StructureDefinition/nzpractitioner'
 ERROR: /Users/davidhay/nzIG/resources/ig: URL Mismatch http://hl7.org.nz/fhir/ImplementationGuide/nz-base vs http://hl7.org.au/fhir/ImplementationGuide/nz-base
 == /Users/davidhay/nzIG/resources/nzpatient.StructureDefinition.xml ==
-ERROR: StructureDefinition/NZPatient: StructureDefinition.differential: No slicing on the root element [element.first().slicing.empty()]
-ERROR: StructureDefinition/NZPatient: StructureDefinition.differential.element[1].slicing: If there are no discriminators, there must be a definition [discriminator.exists() or description.exists()]
-WARNING: http://hl7.org.nz/fhir/StructureDefinition/NZPatient: Profiles SHOULD state their own version
+ERROR: StructureDefinition/nzpatient: StructureDefinition.differential: No slicing on the root element [element.first().slicing.empty()]
+ERROR: StructureDefinition/nzpatient: StructureDefinition.differential.element[1].slicing: If there are no discriminators, there must be a definition [discriminator.exists() or description.exists()]
+WARNING: http://hl7.org.nz/fhir/StructureDefinition/nzpatient: Profiles SHOULD state their own version
 == /Users/davidhay/nzIG/resources/nzpractitioner.StructureDefinition.xml ==
-WARNING: http://hl7.org.nz/fhir/StructureDefinition/NZPractitioner: Profiles SHOULD state their own version
+WARNING: http://hl7.org.nz/fhir/StructureDefinition/nzpractitioner: Profiles SHOULD state their own version

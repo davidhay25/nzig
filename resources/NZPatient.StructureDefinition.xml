@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="NZPatient" />
-  <url value="http://hl7.org.nz/fhir/StructureDefinition/NZPatient" />
-  <name value="NZPatient" />
+  <id value="nzpatient" />
+  <url value="http://hl7.org.nz/fhir/StructureDefinition/nzpatient" />
+  <name value="nzpatient" />
   <status value="draft" />
   <fhirVersion value="3.0.1" />
   <kind value="resource" />
