@@ -25,11 +25,20 @@
     <name value="base"/>
     <resource>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="StructureDefinition-au-organisation.html"/>
+        <valueUri value="StructureDefinition-NZPatient.html"/>
       </extension>
       <example value="false"/>
       <sourceReference>
-        <reference value="StructureDefinition/au-organisation"/>
+        <reference value="StructureDefinition/NZPatient"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-NZPractitioner.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/NZPractitioner"/>
       </sourceReference>
     </resource>
   </package>

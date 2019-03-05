@@ -23,12 +23,22 @@
   <package>
     <name value="base"/>
 
+    
     <resource>
       <example value="false"/>
       <sourceReference>
-        <reference value="StructureDefinition/au-organisation"/>
+        <reference value="StructureDefinition/NZPatient"/>
       </sourceReference>
     </resource>
+    
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/NZPractitioner"/>
+      </sourceReference>
+    </resource>
+    
+    
   </package>
   <page>
     <source value="index.html"/>

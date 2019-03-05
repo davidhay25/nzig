@@ -3,7 +3,8 @@
 These Profiles have been defined for this implementation guide.
 
 ## Administration Profiles
-* [AU Base Organisation](StructureDefinition-au-organisation.html) - responsible legal organisation
+* [NZ Patient](StructureDefinition-nzpatient.html) - New Zealand Patient
+* [NZ Practitioner](StructureDefinition-nzpractitioner.html) - A clinician. Suitable for exposure by the HPI
 
 
 

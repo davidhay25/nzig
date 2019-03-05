@@ -39,7 +39,14 @@
     }],
     "resource" : [{
       "reference" : {
-        "reference" : "StructureDefinition/au-organisation"
+        "reference" : "StructureDefinition/NZPatient"
+      },
+      "exampleBoolean" : false,
+      "groupingId" : "p1"
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/NZPractitioner"
       },
       "exampleBoolean" : false,
       "groupingId" : "p1"

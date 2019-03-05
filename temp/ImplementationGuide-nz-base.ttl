@@ -39,12 +39,24 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "StructureDefinition-au-organisation.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-NZPatient.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <http://hl7.org.nz/fhir/StructureDefinition/au-organisation>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/au-organisation" ]
+         fhir:link <http://hl7.org.nz/fhir/StructureDefinition/NZPatient>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NZPatient" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-NZPractitioner.html" ]
+       ];
+       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
+       fhir:ImplementationGuide.package.resource.sourceReference [
+         fhir:link <http://hl7.org.nz/fhir/StructureDefinition/NZPractitioner>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NZPractitioner" ]
        ]
      ]
   ];

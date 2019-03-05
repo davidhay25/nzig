@@ -34,12 +34,24 @@
           "extension": [
             {
               "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "valueUri": "StructureDefinition-au-organisation.html"
+              "valueUri": "StructureDefinition-NZPatient.html"
             }
           ],
           "example": false,
           "sourceReference": {
-            "reference": "StructureDefinition/au-organisation"
+            "reference": "StructureDefinition/NZPatient"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "StructureDefinition-NZPractitioner.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "StructureDefinition/NZPractitioner"
           }
         }
       ]
