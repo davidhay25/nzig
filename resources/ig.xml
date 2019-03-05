@@ -27,14 +27,14 @@
     <resource>
       <example value="false"/>
       <sourceReference>
-        <reference value="StructureDefinition/NZPatient"/>
+        <reference value="StructureDefinition/nzpatient"/>
       </sourceReference>
     </resource>
     
     <resource>
       <example value="false"/>
       <sourceReference>
-        <reference value="StructureDefinition/NZPractitioner"/>
+        <reference value="StructureDefinition/nzpractitioner"/>
       </sourceReference>
     </resource>
     

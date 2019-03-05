@@ -10,7 +10,7 @@
     "basename": "Patient",
     "basepath": "http://hl7.org/fhir/STU3/patient.html",
     "status": "draft",
-    "date": "Tue Mar 05 17:14:53 NZDT 2019"
+    "date": "Tue Mar 05 17:26:46 NZDT 2019"
   },
   "NZPractitioner": {
     "index": 1,
@@ -23,6 +23,6 @@
     "basename": "Practitioner",
     "basepath": "http://hl7.org/fhir/STU3/practitioner.html",
     "status": "draft",
-    "date": "Tue Mar 05 17:14:53 NZDT 2019"
+    "date": "Tue Mar 05 17:26:46 NZDT 2019"
   }
 }

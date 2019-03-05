@@ -36,14 +36,14 @@
     </grouping>
     <resource>
       <reference>
-        <reference value="StructureDefinition/NZPatient"/>
+        <reference value="StructureDefinition/nzpatient"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/NZPractitioner"/>
+        <reference value="StructureDefinition/nzpractitioner"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>

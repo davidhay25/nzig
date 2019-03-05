@@ -15,7 +15,7 @@
   fhir:StructureDefinition.url [ fhir:value "http://hl7.org.nz/fhir/StructureDefinition/NZPatient"];
   fhir:StructureDefinition.name [ fhir:value "NZPatient"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
-  fhir:StructureDefinition.date [ fhir:value "2019-03-05T17:14:53+13:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2019-03-05T17:26:46+13:00"^^xsd:dateTime];
   fhir:StructureDefinition.fhirVersion [ fhir:value "3.0.1"];
   fhir:StructureDefinition.mapping [
      fhir:index 0;

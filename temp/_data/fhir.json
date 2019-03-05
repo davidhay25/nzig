@@ -3,7 +3,7 @@
   "canonical": "http://hl7.org.nz/fhir",
   "igId": "nz-base",
   "igName": "Implementation Guide Template",
-  "errorCount": 3,
+  "errorCount": 5,
   "version": "3.0.1",
   "revision": "11917",
   "versionFull": "3.0.1-11917",
@@ -12,7 +12,7 @@
   "toolingVersionFull": "4.1.0 (3)",
   "totalFiles": 3,
   "processedFiles": 49,
-  "genDate": "Tue, Mar 5, 2019 17:14+1300",
+  "genDate": "Tue, Mar 5, 2019 17:26+1300",
   "ig": {
     "id": "nz-base",
     "name": "Implementation Guide Template",

@@ -24,21 +24,15 @@
   <package id="p1">
     <name value="base"/>
     <resource>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="StructureDefinition-NZPatient.html"/>
-      </extension>
       <example value="false"/>
       <sourceReference>
-        <reference value="StructureDefinition/NZPatient"/>
+        <reference value="StructureDefinition/nzpatient"/>
       </sourceReference>
     </resource>
     <resource>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="StructureDefinition-NZPractitioner.html"/>
-      </extension>
       <example value="false"/>
       <sourceReference>
-        <reference value="StructureDefinition/NZPractitioner"/>
+        <reference value="StructureDefinition/nzpractitioner"/>
       </sourceReference>
     </resource>
   </package>

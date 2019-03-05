@@ -31,27 +31,15 @@
       "name": "base",
       "resource": [
         {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "valueUri": "StructureDefinition-NZPatient.html"
-            }
-          ],
           "example": false,
           "sourceReference": {
-            "reference": "StructureDefinition/NZPatient"
+            "reference": "StructureDefinition/nzpatient"
           }
         },
         {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "valueUri": "StructureDefinition-NZPractitioner.html"
-            }
-          ],
           "example": false,
           "sourceReference": {
-            "reference": "StructureDefinition/NZPractitioner"
+            "reference": "StructureDefinition/nzpractitioner"
           }
         }
       ]

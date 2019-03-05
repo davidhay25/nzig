@@ -9,7 +9,7 @@
   <url value="http://hl7.org.nz/fhir/StructureDefinition/NZPatient"/>
   <name value="NZPatient"/>
   <status value="draft"/>
-  <date value="2019-03-05T17:14:53+13:00"/>
+  <date value="2019-03-05T17:26:46+13:00"/>
   <fhirVersion value="3.0.1"/>
   <mapping>
     <identity value="rim"/>

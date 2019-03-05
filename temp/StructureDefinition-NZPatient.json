@@ -8,7 +8,7 @@
   "url": "http://hl7.org.nz/fhir/StructureDefinition/NZPatient",
   "name": "NZPatient",
   "status": "draft",
-  "date": "2019-03-05T17:14:53+13:00",
+  "date": "2019-03-05T17:26:46+13:00",
   "fhirVersion": "3.0.1",
   "mapping": [
     {
