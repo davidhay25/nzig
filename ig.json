@@ -4,7 +4,11 @@
     "source": "ig.xml",
     "dependencyList": [],
     "spreadsheets": [],
-    "special-urls": [],
+    "special-urls": [
+        "https://standards.digital.health.nz/valueset/ethnic-group-level-4",
+        "https://standards.digital.health.nz/codesystem/ethnic-group-level-4",
+        "https://standards.digital.health.nz/valueset/nzinfosource"
+    ],
     "extraTemplates": ["mappings"],
     "defaults": {
       
@@ -16,6 +20,10 @@
             "template-base": "sd.html",
             "template-defns": "sd-definitions.html",
             "template-mappings": "sd-mappings.html"
+        },
+      "ValueSet": 
+        {
+            "template-base": "vs.html"
         }
    },
     "tool": "jekyll",

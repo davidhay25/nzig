@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="nzpractitioner" />
-  <url value="http://hl7.org.nz/fhir/StructureDefinition/nzpractitioner" />
-  <name value="NZPractitioner" />
+  <url value="http://hl7.org.nz/fhir/StructureDefinition/NZPractitioner" />
+  <name value="nzpractitioner" />
   <status value="draft" />
   <fhirVersion value="3.0.1" />
   <kind value="resource" />
@@ -11,6 +11,25 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Practitioner" />
   <derivation value="constraint" />
   <differential>
+    <element id="Practitioner.extension">
+      <path value="Practitioner.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Practitioner.extension:eyecolour">
+      <path value="Practitioner.extension" />
+      <sliceName value="eyecolour" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://example.org/fhir/StructureDefinition/eyecolour" />
+      </type>
+    </element>
     <element id="Practitioner.photo">
       <path value="Practitioner.photo" />
       <max value="0" />

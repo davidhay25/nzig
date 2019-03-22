@@ -3,29 +3,31 @@
   "canonical": "http://hl7.org.nz/fhir",
   "igId": "nz-base",
   "igName": "Implementation Guide Template",
-  "errorCount": 3,
+  "packageId": "hl7.fhir.nz.base",
+  "errorCount": 5,
   "version": "3.0.1",
   "revision": "11917",
   "versionFull": "3.0.1-11917",
   "toolingVersion": "4.1.0",
   "toolingRevision": "3",
   "toolingVersionFull": "4.1.0 (3)",
-  "totalFiles": 3,
-  "processedFiles": 49,
-  "genDate": "Tue, Mar 5, 2019 17:35+1300",
+  "totalFiles": 6,
+  "processedFiles": 101,
+  "genDate": "Sat, Mar 23, 2019 09:05+1300",
+  "genDay": "23/03/2019",
   "ig": {
     "id": "nz-base",
     "name": "Implementation Guide Template",
-    "url": "http://hl7.org.au/fhir/ImplementationGuide/nz-base",
+    "url": "http://hl7.org.nz/fhir/ImplementationGuide/nz-base",
     "version": "1.0.2",
     "status": "draft",
     "experimental": true,
     "publisher": "HL7 New Zealand",
     "contact": [
       {
-        "name": "HL7 New Zealand Patient Administration Working Group",
+        "name": "David Hay",
         "telecom": [
-          "http://confluence.hl7australia.com/display/PA"
+          "david.hay25@gmail.com"
         ]
       }
     ],

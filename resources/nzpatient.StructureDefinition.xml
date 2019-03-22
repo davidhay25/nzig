@@ -11,9 +11,34 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Patient" />
   <derivation value="constraint" />
   <differential>
+    <element id="Patient.extension">
+      <path value="Patient.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Patient.extension:ethnicity">
+      <path value="Patient.extension" />
+      <sliceName value="ethnicity" />
+      <short value="New Zealand Ethnicity" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.org.nz/fhir/StructureDefinition/nzethnicity" />
+      </type>
+    </element>
     <element id="Patient.identifier">
       <path value="Patient.identifier" />
       <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="system" />
+        </discriminator>
         <rules value="open" />
       </slicing>
     </element>
@@ -24,21 +49,11 @@
     </element>
     <element id="Patient.identifier:NHI.system">
       <path value="Patient.identifier.system" />
-      <type>
-        <code value="uri" />
-        <profile value="https://standards.digital.health.nz/id/nhi" />
-      </type>
+      <fixedUri value="https://standards.digital.health.nz/nhi" />
     </element>
-    <element id="Patient.animal">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
-        <valueString value="Animal" />
-      </extension>
-      <path value="Patient.animal" />
-      <max value="0" />
-    </element>
-    <element id="Patient.link">
-      <path value="Patient.link" />
-      <max value="0" />
+    <element id="Patient.identifier:Others">
+      <path value="Patient.identifier" />
+      <sliceName value="Others" />
     </element>
   </differential>
 </StructureDefinition>
