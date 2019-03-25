@@ -1,1 +1,1 @@
-Intro
+This profile describes the Patient resource that will be supplied by the NHI

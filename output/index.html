@@ -104,25 +104,32 @@ This is the Continuous Integration Build of the New Zealand Base Profiles Implem
 <h1 id="new-zealand-base-profiles-implementation-guide">New Zealand Base Profiles Implementation Guide</h1>
 
 <h2 id="introduction">Introduction</h2>
-<p>This implementation guide is provided to support the use of FHIR<sup>®©</sup> in a New Zealand context.</p>
+<p>This implementation guide is provided to describe the FHIR interface being developed 
+to provide access to the New Zealand NHI (National Health Identifier).</p>
 
 <p>This document is a working specification that is expected to be implemented and tested by FHIR<sup>®©</sup> system producers
 to enable feedback to improve the content of this guide.</p>
 
-<p>The initial driver for this guide is the Ministry Of Health work to add FHIR interfaces to existing registries:</p>
-<ul>
-  <li>The NHI (National Health Index) which is a Patient registry</li>
-  <li>The HPI (Health Provider Index) which is a Provider registry</li>
-</ul>
+<p>–  more detail on the NHI here –</p>
 
-<p>It is expected that the profiles in this guide will become the core New Zealand profiles once
-their use is opened up to a wider audience.</p>
+<p>The sole resource that is profiled for this guide is the Patient resource.
+Concurrently with this work is the development of a ‘core’ Patient resource 
+for New Zealand that will be intended for more general use (such as supporting
+the exchange of clinical data between systems). The profiles defined in this
+guide will be compatible with the core profiles, specifically:</p>
+
+<ul>
+  <li>Where there is the same concept between the core Patient and the NHI patient profiles that is represented by an extension, then the same extension definition will be used. For example ethnicity.</li>
+  <li>In most cases, ValueSets in core will be the same as those used in the NHI profile</li>
+  <li>If an element is removed from core, it will not be present in the NHI profile. (But the NHI profile may remove elements from core)</li>
+  <li>The core profile will describe ‘must support’ elements. The intention is that the NHI prpfile will apply ‘must support’ to the same elements</li>
+</ul>
 
 <h2 id="scope">Scope</h2>
 
 <p>This document presents New Zealand use concepts defined via FHIR processable artefacts; these are collaborative outputs with agreed approaches to varied kinds of healthcare related information based on the core FHIR STU3 specification.</p>
 <ul>
-  <li><a href="profiles.html">Profiles</a> - are useful constraints of core FHIR resources and datatype for New Zealand use</li>
+  <li><a href="profiles.html">Profiles</a> - are useful constraints of core FHIR resources and datatype for New Zealand use. IN this guide, it is only the Patient</li>
   <li><a href="extensions.html">Extensions</a> - are FHIR extensions that are added for local use, covering needed New Zealand concepts</li>
   <li><a href="terminology.html">Terminologies</a> - are defined or referenced code systems and value sets for New Zealand context</li>
 </ul>
@@ -131,20 +138,16 @@ their use is opened up to a wider audience.</p>
 
 <p>This document is a working specification that may be directly implemented by FHIR<sup>®©</sup> system producers.</p>
 
-<p>Information contained in this document is aimed at providing guidance on representing New Zealand local concepts 
-using FHIR. This includes code systems, extensions and profiles on base FHIR types.  The content of the IG is 
-general in nature and seeks to provide a ‘how-to’ guide when representing concepts, it includes core base
-profiles that can be further constrained for a particular usage.</p>
+<p>Information contained in this document is aimed at accessing the NHI system</p>
+
+<p>– more detail on the interface –</p>
+
+<h2 id="security">Security</h2>
+
+<p>– details on security here</p>
 
 <p>FHIR<sup>®©</sup> connectathon events are key to the verification of the guide as being suitable for 
 implementation. This implementation guide will be used as the basis for New Zealand connectathon events.</p>
-
-<h2 id="collaboration">Collaboration</h2>
-<p>This guide is the product of collaborative work undertaken with participants from:</p>
-
-<ul>
-  <li>List collaborators here</li>
-</ul>
 
 
 
@@ -172,7 +175,7 @@ implementation. This implementation guide will be used as the basis for New Zeal
   <div class="container">  <!-- container -->
    <div class="inner-wrapper">
     <p>
-        NZ Base &copy; FHIR STU3 (IG Publisher v3.0.1-11917) generated on Sat, Mar 23, 2019 09:05+1300. |
+        NZ Base &copy; FHIR STU3 (IG Publisher v3.0.1-11917) generated on Mon, Mar 25, 2019 14:23+1300. |
              <!--  <a style="color: #81BEF7" rel="license" <!-- <href="../license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> -->
                 <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/STU3/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a>
         </span>

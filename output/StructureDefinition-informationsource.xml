@@ -9,7 +9,7 @@
   <url value="http://hl7.org.nz/fhir/StructureDefinition/informationsource"/>
   <name value="informationsource"/>
   <status value="draft"/>
-  <date value="2019-03-23T09:05:49+13:00"/>
+  <date value="2019-03-25T14:23:51+13:00"/>
   <description value="The source of the information"/>
   <fhirVersion value="3.0.1"/>
   <mapping>
