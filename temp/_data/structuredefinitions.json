@@ -10,7 +10,43 @@
     "basename": "Extension",
     "basepath": "http://hl7.org/fhir/STU3/datatypes.html#Extension",
     "status": "draft",
-    "date": "Mon Mar 25 14:23:51 NZDT 2019",
+    "date": "Mon Mar 25 15:16:56 NZDT 2019",
+    "contexts": [
+      {
+        "type": "Patient"
+      }
+    ]
+  },
+  "patient-birthplace": {
+    "index": 1,
+    "url": "http://hl7.org.nz/fhir/StructureDefinition/patient-birthplace",
+    "name": "patient-birthplace",
+    "path": "StructureDefinition/patient-birthplace.html",
+    "kind": "complex-type",
+    "type": "Extension",
+    "base": "http://hl7.org/fhir/StructureDefinition/Extension",
+    "basename": "Extension",
+    "basepath": "http://hl7.org/fhir/STU3/datatypes.html#Extension",
+    "status": "draft",
+    "date": "Mon Mar 25 15:16:56 NZDT 2019",
+    "contexts": [
+      {
+        "type": "Patient"
+      }
+    ]
+  },
+  "patient-nzcitizenship": {
+    "index": 2,
+    "url": "http://hl7.org.nz/fhir/StructureDefinition/patient-nzcitizenship",
+    "name": "patient-nzcitizenship",
+    "path": "StructureDefinition/patient-nzcitizenship.html",
+    "kind": "complex-type",
+    "type": "Extension",
+    "base": "http://hl7.org/fhir/StructureDefinition/Extension",
+    "basename": "Extension",
+    "basepath": "http://hl7.org/fhir/STU3/datatypes.html#Extension",
+    "status": "draft",
+    "date": "Mon Mar 25 15:16:56 NZDT 2019",
     "contexts": [
       {
         "type": "Patient"
@@ -18,7 +54,7 @@
     ]
   },
   "informationsource": {
-    "index": 1,
+    "index": 3,
     "url": "http://hl7.org.nz/fhir/StructureDefinition/informationsource",
     "name": "informationsource",
     "path": "StructureDefinition/informationsource.html",
@@ -28,7 +64,7 @@
     "basename": "Extension",
     "basepath": "http://hl7.org/fhir/STU3/datatypes.html#Extension",
     "status": "draft",
-    "date": "Mon Mar 25 14:23:51 NZDT 2019",
+    "date": "Mon Mar 25 15:16:56 NZDT 2019",
     "description": "The source of the information",
     "contexts": [
       {
@@ -37,7 +73,7 @@
     ]
   },
   "NhiPatient": {
-    "index": 2,
+    "index": 4,
     "url": "http://hl7.org.nz/fhir/StructureDefinition/NhiPatient",
     "name": "NhiPatient",
     "path": "StructureDefinition/NhiPatient.html",
@@ -47,6 +83,6 @@
     "basename": "Patient",
     "basepath": "http://hl7.org/fhir/STU3/patient.html",
     "status": "draft",
-    "date": "Mon Mar 25 14:23:51 NZDT 2019"
+    "date": "Mon Mar 25 15:16:56 NZDT 2019"
   }
 }

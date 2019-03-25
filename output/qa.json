@@ -3,9 +3,9 @@
   "name": "Implementation Guide Template",
   "package-id": "hl7.fhir.nz.base",
   "ig-ver": "1.0.2",
-  "date": "Mon, 25 Mar, 2019 14:23:51 +1300",
-  "errs": 8,
-  "warnings": 4,
+  "date": "Mon, 25 Mar, 2019 15:16:56 +1300",
+  "errs": 4,
+  "warnings": 0,
   "hints": 0,
   "version": "3.0.1",
   "tool": "4.1.0 (3)"

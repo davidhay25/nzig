@@ -33,6 +33,20 @@
     <resource>
       <example value="false"/>
       <sourceReference>
+        <reference value="StructureDefinition/patient-birthplace"/>
+      </sourceReference>
+    </resource>
+    
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/patient-nzcitizenship"/>
+      </sourceReference>
+    </resource>
+    
+    <resource>
+      <example value="false"/>
+      <sourceReference>
         <reference value="StructureDefinition/informationsource"/>
       </sourceReference>
     </resource>
@@ -67,53 +81,6 @@
       </sourceReference>
     </resource>    
 
-    
-    <!--
-     
-    <resource>
-      <example value="false"/>
-      <sourceReference>
-        <reference value="StructureDefinition/nzpatient"/>
-      </sourceReference>
-    </resource>
-   
-    -->
-    
-    <!--
-    <resource>
-      <example value="false"/>
-      <sourceReference>
-        <reference value="StructureDefinition/nzpractitioner"/>
-      </sourceReference>
-    </resource>
-    -->
-    <!--
-    <resource>
-      <example value="false"/>
-      <sourceReference>
-        <reference value="ValueSet/ethnic-group-level-1"/>
-      </sourceReference>
-    </resource>
-    
-    
-   
-    <resource>
-      <example value="false"/>
-      <sourceReference>
-        <reference value="ValueSet/nzethnicityl2"/>
-      </sourceReference>
-    </resource>
-    
-    <resource>
-      <example value="false"/>
-      <sourceReference>
-        <reference value="ValueSet/nzethnicityl3"/>
-      </sourceReference>
-    </resource>
-    
-   
-    -->
-    
     
   </package>
   <page>

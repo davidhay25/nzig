@@ -5,7 +5,7 @@ For privacy reasons, there are a number of requirements for search. These includ
 * Search must include a DoB
 * At least one of first name /last name must be included in a search
 
-There is an on going discussion concerning the response of the API when a search includes a /merged’ patient – ie where one patient NHI has been discontinued, and replaced by another (This commonly occurs when a single person has been allocated more than one NHI number. One is chosen as the active one, and the others become inactive.
+There is an on going discussion concerning the response of the API when a search includes a 'merged’ patient – ie where one patient NHI has been discontinued, and replaced by another (This commonly occurs when a single person has been allocated more than one NHI number. One is chosen as the active one, and the others become inactive.
 
 The question is what should happen when a search would result in an inactive patient being returned?
 
@@ -15,4 +15,4 @@ The question is what should happen when a search would result in an inactive pat
 It may be that a more complex rule be made:
 
 If the search is by NHI, then return regardless
-Otherwise exclude inactive patients
+Otherwise exclude inactive patients - return 'merged' patient

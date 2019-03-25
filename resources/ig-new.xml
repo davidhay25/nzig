@@ -43,6 +43,20 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/patient-birthplace"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/patient-nzcitizenship"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/informationsource"/>
       </reference>
       <exampleBoolean value="false"/>

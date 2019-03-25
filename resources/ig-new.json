@@ -46,6 +46,20 @@
     },
     {
       "reference" : {
+        "reference" : "StructureDefinition/patient-birthplace"
+      },
+      "exampleBoolean" : false,
+      "groupingId" : "p1"
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/patient-nzcitizenship"
+      },
+      "exampleBoolean" : false,
+      "groupingId" : "p1"
+    },
+    {
+      "reference" : {
         "reference" : "StructureDefinition/informationsource"
       },
       "exampleBoolean" : false,

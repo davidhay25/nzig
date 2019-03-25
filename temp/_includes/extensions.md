@@ -4,4 +4,7 @@ These extensions have been defined for this implementation guide.
 
 ## Administration
 
-* [NZ Ethnicity](StructureDefinition-nzethnicity.html) - New Zealand Ethnicity codes
+* [Ethnicity](StructureDefinition-nzethnicity.html) - New Zealand Ethnicity codes
+* [Birthplace](StructureDefinition-patient-birthplace.html) - New Zealand Birthplace
+* [Citizenship](StructureDefinition-patient-nzcitizenship.html) - New Zealand Citizenship
+* [Information Source](StructureDefinition-patient-informationsource.html) - Information Source

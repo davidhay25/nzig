@@ -2,6 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="informationsource" />
   <url value="http://hl7.org.nz/fhir/StructureDefinition/informationsource" />
+  <version value=".1" />
   <name value="informationsource" />
   <status value="draft" />
   <description value="The source of the information" />
